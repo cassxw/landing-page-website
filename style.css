@@ -10,7 +10,7 @@ header {
     background-color: #48CAD9;
 
     width: 100%;
-    padding: 10px;
+    padding: 25px;
 
     position: fixed;
     top: 0;
@@ -30,16 +30,27 @@ header {
     color: #2257bf;
     
     margin: 0px;
-    padding: 0px;
+    padding-right: 35px;
 
+    flex-shrink: 0;
     display: flex;
     align-items: end;
     justify-content: space-between;
     gap: 25px;
 }
 
+#header-links a {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#header-links a:hover {
+    background-color: #2257bf;
+    color: #C7D93D;
+}
+
 #first {
     background-color: #C7D93D;
     
-    margin-top: 110px;
+    margin-top: 140px;
 }
