@@ -109,6 +109,11 @@ header {
     display: block;
 }
 
+#sign-up:hover {
+    background-color: #2257bf;
+    color: #48CAD9;
+}
+
 #first-image {
     width: 300px;
     height: auto;
