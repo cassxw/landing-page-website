@@ -10,6 +10,15 @@ body {
     gap: 10px;
 }
 
+h1, h2, h3, p, ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+a, button {
+    cursor: pointer;
+}
+
 /************************************************************/
 
 header {
@@ -47,7 +56,6 @@ header {
 }
 
 #header-links a {
-    cursor: pointer;
     padding: 10px;
 }
 
@@ -123,7 +131,7 @@ header {
     list-style: none;
 
     width: 100%;
-    padding: 0px;
+    padding: 25px 0px 0px 0px;
 
     display: flex;
     align-items: center;
@@ -140,10 +148,15 @@ header {
     border: 5px solid black;
     border-radius: 5px;
 
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: auto;
+    margin-bottom: 15px;
 }
 
+#second ul li p {
+    font-style: italic;
+    font-weight: lighter;
+}
 
 /************************************************************/
 
