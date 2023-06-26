@@ -2,15 +2,20 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: azure;
 
+    padding: 0px 75px;
+
     display: flex;
     flex-direction: column;
 }
+
+/************************************************************/
 
 header {
     background-color: #48CAD9;
 
     width: 100%;
-    padding: 25px;
+    min-width: 1027px;
+    padding: 20px 90px;
 
     position: fixed;
     top: 0;
@@ -21,16 +26,17 @@ header {
 }
 
 #logo {
-    width: 250px;
+    width: 200px;
     height: auto;
 }
 
 #header-links {
     list-style: none;
+    font-size: 20px;
     color: #2257bf;
     
     margin: 0px;
-    padding-right: 35px;
+    padding: 0px 175px 0px 0px;
 
     flex-shrink: 0;
     display: flex;
@@ -40,8 +46,8 @@ header {
 }
 
 #header-links a {
-    padding: 5px;
     cursor: pointer;
+    padding: 10px;
 }
 
 #header-links a:hover {
@@ -49,8 +55,72 @@ header {
     color: #C7D93D;
 }
 
+/************************************************************/
+
 #first {
     background-color: #C7D93D;
+
+    min-width: 796px;
+    margin-top: 110px;
+    padding: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#first h1 {
+    font-size: 40px;
+    text-decoration: underline;
+
+    margin: 0px;
+    padding-top: 5px;
+}
+
+#first h3 {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+#sign-up {
+    font-size: 25px;
+    font-weight: 800;
+    background-color: #F2C12E;
+    color: #2257bf;
     
-    margin-top: 140px;
+    margin-top: 20px;
+
+    display: block;
+}
+
+#first-image {
+    width: 300px;
+    height: auto;
+}
+
+/************************************************************/
+
+
+
+/************************************************************/
+
+footer {
+    background-color: #48CAD9;
+
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+
+    bottom: 0;
+    left: 0;
+
+    font-style: italic;
+    text-align: center;
 }
