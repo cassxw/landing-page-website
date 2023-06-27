@@ -111,7 +111,7 @@ header {
     padding-bottom: 10px;
 }
 
-#sign-up {
+.sign-up {
     font-size: 25px;
     font-weight: 800;
     background-color: #48CAD9;
@@ -119,7 +119,7 @@ header {
     display: block;
 }
 
-#sign-up:hover {
+.sign-up:hover {
     background-color: #2257bf;
     color: #48CAD9;
 }
