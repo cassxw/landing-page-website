@@ -1,13 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
     background-color: azure;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
 
-    padding: 0px 75px;
+    margin: 0px;
+    padding: 0px;
 
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
 }
 
 h1, h2, h3, p, ul {
@@ -19,20 +24,28 @@ a, button {
     cursor: pointer;
 }
 
+section {
+    width: 100%;
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+}
+
 /************************************************************/
 
 header {
     background-color: #48CAD9;
+    border-bottom: 2.5px solid #2257bf;
 
     width: 100%;
-    min-width: 1027px;
-    padding: 20px 90px;
+    margin: 0px;
+    padding: 20px 30px;
 
     position: fixed;
     top: 0;
     left: 0;
 
     display: flex;
+    align-items: flex-nd;
     justify-content: space-between;
 }
 
@@ -43,10 +56,10 @@ header {
 
 #header-links {
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
     
     margin: 0px;
-    padding: 0px 175px 0px 0px;
+    padding: 0px 100px 0px 0px;
 
     flex-shrink: 0;
     display: flex;
@@ -69,13 +82,12 @@ header {
 #first {
     background-color: #C7D93D;
 
-    min-width: 796px;
-    margin-top: 110px;
-    padding: 25px;
+    margin-top: 100px;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
 }
 
 .left {
@@ -87,8 +99,8 @@ header {
 }
 
 #first h1 {
-    font-size: 40px;
-    text-decoration: underline;
+    font-size: 48px;
+    font-weight: bolder;
 
     margin: 0px;
     padding-top: 5px;
@@ -123,9 +135,6 @@ header {
 
 #second {
     background-color: #F2C12E;
-
-    min-width: 796px;
-    padding: 25px;
 
     display: flex;
     flex-direction: column;
@@ -165,10 +174,41 @@ header {
 
 /************************************************************/
 
+#third {
+    background-color: #F28729;
+    text-align: center;
+
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+#author {
+    font-weight: lighter;
+}
+
+/************************************************************/
+
+#fourth {
+    background-color: #F25835;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/************************************************************/
+
 footer {
     background-color: #48CAD9;
+    border-top: 2.5px solid #2257bf;
 
     width: 100%;
+    min-width: 1027px;
     padding: 20px 0px 20px 0px;
 
     bottom: 0;
