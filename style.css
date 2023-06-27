@@ -26,8 +26,9 @@ a, button {
 
 section {
     width: 100%;
+    min-width: 570px;
     margin: 0px auto;
-    padding: 50px 0px 50px 0px;
+    padding: 50px 0px;
 }
 
 /************************************************************/
@@ -38,14 +39,14 @@ header {
 
     width: 100%;
     margin: 0px;
-    padding: 20px 30px;
+    padding: 20px 5px;
 
     position: fixed;
     top: 0;
     left: 0;
 
     display: flex;
-    align-items: flex-nd;
+    align-items: flex-end;
     justify-content: space-between;
 }
 
@@ -59,13 +60,13 @@ header {
     font-size: 18px;
     
     margin: 0px;
-    padding: 0px 100px 0px 0px;
+    padding: 0px;
 
     flex-shrink: 0;
     display: flex;
     align-items: end;
     justify-content: space-between;
-    gap: 25px;
+    gap: 15px;
 }
 
 #header-links a {
@@ -86,8 +87,8 @@ header {
 
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-around;
+    gap: 5px;
 }
 
 .left {
@@ -99,7 +100,7 @@ header {
 }
 
 #first h1 {
-    font-size: 48px;
+    font-size: 45px;
     font-weight: bolder;
 
     margin: 0px;
@@ -107,7 +108,6 @@ header {
 }
 
 #first h3 {
-    margin: 0px;
     padding-bottom: 10px;
 }
 
@@ -115,8 +115,6 @@ header {
     font-size: 25px;
     font-weight: 800;
     background-color: #48CAD9;
-    
-    margin-top: 20px;
 
     display: block;
 }
@@ -127,7 +125,7 @@ header {
 }
 
 #first-image {
-    width: 300px;
+    width: 275px;
     height: auto;
 }
 
@@ -149,7 +147,9 @@ header {
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 40px;
 }
 
 #second ul li {
@@ -181,7 +181,7 @@ header {
 }
 
 #quote {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 100;
     font-style: italic;
 }
@@ -199,6 +199,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 15px;
 }
 
 /************************************************************/
@@ -208,7 +209,6 @@ footer {
     border-top: 2.5px solid #2257bf;
 
     width: 100%;
-    min-width: 1027px;
     padding: 20px 0px 20px 0px;
 
     bottom: 0;
