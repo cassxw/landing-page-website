@@ -47,7 +47,7 @@ header {
 
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #logo {
@@ -204,15 +204,12 @@ header {
 
 /************************************************************/
 
-footer {
+#footer {
     background-color: #48CAD9;
     border-top: 2.5px solid #2257bf;
 
     width: 100%;
-    padding: 20px 0px 20px 0px;
-
-    bottom: 0;
-    left: 0;
+    padding: 20px 0px;
 
     font-style: italic;
     text-align: center;
